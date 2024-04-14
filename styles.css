@@ -2,3 +2,68 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-size: 30px;
+}
+
+.signup-button {
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    width: 100px;
+    height: 25px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+
+.banner-image {
+    width: 700px;
+    height: 450px;
+}
