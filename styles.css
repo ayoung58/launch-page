@@ -29,7 +29,7 @@ header {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .header-top {
@@ -66,11 +66,15 @@ ul {
 }
 
 .banner-image {
-    width: 700px;
+    width: 600px;
     height: 450px;
 }
 
 /* Features section */
+
+.features {
+    padding: 25px;
+}
 
 .featured {
     width: 270px;
@@ -105,4 +109,33 @@ h2 {
     flex-direction: column;
     width: 200px;
     flex-wrap: wrap;
+}
+
+/* Quote section of the website */
+
+.quote {
+    background-color: #e5e7eb;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    /* vw means percentage of the viewing window :) */
+    padding: 10px 20vw;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 20px;
+}
+
+.quote-cred {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+    padding: 0px;
+    margin-right: 30px;
+    text-align: end;
 }
