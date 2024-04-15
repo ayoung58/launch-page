@@ -6,13 +6,19 @@ body {
 /* Header CSS */
 
 h1 {
-    font-size: 50px;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: 1200;
+    color: #F9FaF8;
+    padding: 0px;
+    margin: 0px;
 }
 
 .banner-text {
-    font-size: 30px;
-}
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #E7E5Eb;
+}   
 
 .signup-button {
     border-radius: 8px;
@@ -20,6 +26,7 @@ h1 {
     background-color: darkslategray;
     color: white;
     font-size: 20px;
+    padding: 5px 10px;
 }
 
 header {
@@ -88,6 +95,10 @@ ul {
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 1200;
+    color: #1F2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .featured-images {
@@ -109,6 +120,11 @@ h2 {
     flex-direction: column;
     width: 200px;
     flex-wrap: wrap;
+}
+
+.caption {
+    font-size: 18px;
+    text-align: center;
 }
 
 /* Quote section of the website */
