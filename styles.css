@@ -3,6 +3,8 @@ body {
     flex-direction: column;
 }
 
+/* Header CSS */
+
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -66,4 +68,41 @@ ul {
 .banner-image {
     width: 700px;
     height: 450px;
+}
+
+/* Features section */
+
+.featured {
+    width: 270px;
+    height: 200px;
+}
+
+#vertical {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.featured-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image-and-caption {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex-wrap: wrap;
+}
+
+.vertical-group {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
 }
