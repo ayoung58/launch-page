@@ -174,3 +174,14 @@ h2 {
     justify-content: center;
     color: white;
 }
+
+/* Footer section */
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 12px;
+    padding: 7px;
+    color: white;
+    justify-content: center;
+}
